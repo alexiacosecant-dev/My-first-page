@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <!-- 适配移动端 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的个人介绍</title>
+  <!-- 引入外部 CSS 样式 -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <!-- 页面头部 -->
+  <header>
+    <h1>你好，我是小明</h1>
+    <p>一名前端初学者 🌟</p>
+  </header>
+
+  <!-- 个人信息部分 -->
+  <section class="info">
+    <h2>关于我</h2>
+    <div class="avatar">
+      <!-- 这里用一张网络图片作为头像 -->
+      <img src="https://picsum.photos/200/200" alt="个人头像">
+    </div>
+    <ul>
+      <li>年龄：20岁</li>
+      <li>爱好：编程、打球、看电影</li>
+      <li>目标：成为一名优秀的前端工程师</li>
+    </ul>
+  </section>
+
+  <!-- 技能部分 -->
+  <section class="skills">
+    <h2>我的技能</h2>
+    <div class="skill-bar">
+      <span>HTML</span>
+      <div class="bar">
+        <div class="progress" style="width: 80%"></div>
+      </div>
+    </div>
+    <div class="skill-bar">
+      <span>CSS</span>
+      <div class="bar">
+        <div class="progress" style="width: 60%"></div>
+      </div>
+    </div>
+    <div class="skill-bar">
+      <span>JavaScript</span>
+      <div class="bar">
+        <div class="progress" style="width: 40%"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 按钮交互 -->
+  <button id="greetBtn">点击打招呼</button>
+  <p id="greetText"></p>
+
+  <!-- 引入外部 JavaScript -->
+  <script src="./js/script.js"></script>
+</body>
+</html>
